@@ -30,7 +30,7 @@ button.addEventListener('click', function () {
   
   const cellValues = document.querySelectorAll('#scoreboard div h3')
   const cells = document.querySelectorAll('#scoreboard div')
-  for (let i=1; i<=76; i++) {
+  for (let i=0; i<76; i++) {
       if(parseInt(cellValues[i].innerText) === newNumber)
         cells[i].classList.add('extracted')
   }
