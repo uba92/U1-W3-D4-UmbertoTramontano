@@ -1,0 +1,47 @@
+header {
+    text-align: center;
+    padding: 2em;
+    background-color: brown;
+}
+
+header h1 {
+    font-weight: bold;
+    font-size: 2.5em;
+}
+
+main {
+    background-color: gray;
+}
+
+#number-container {
+    background-color: white;
+    font-size: 1.5em;
+    padding: 1em;
+    border-radius: 25px;
+}
+
+.cell {
+    display: inline-block;
+    background-color: white;
+    border-radius: 50%;
+    padding: 1em;
+    margin: 2em;
+}
+
+.cell h3 {
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+.extract-btn {
+    width: 70px;
+    height: 70px;
+    margin: 1em 2em;
+    border: none;
+    border-radius: 25px;
+
+}
+
+.extracted {
+    background-color: red;
+}
